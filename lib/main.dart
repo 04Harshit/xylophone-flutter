@@ -11,17 +11,8 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              soundButton(1),
-              soundButton(2),
-              soundButton(3),
-              soundButton(4),
-              soundButton(5),
-              soundButton(6),
-              soundButton(7),
-            ],
-          ),
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: soundButtons()),
         ),
       ),
     );
